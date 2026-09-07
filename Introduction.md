@@ -1,79 +1,46 @@
 # C++ Programs Lab
 
-> A growing collection of everyday C++ programs and Design and Analysis of Algorithms implementations.
+> A growing collection of C++ programs built to learn, practice, and think better.
 
-This repository is a practical space for learning C++ by writing, running, and improving programs. It brings together normal programming exercises for building strong fundamentals and DAA programs for understanding how algorithms solve problems efficiently.
+This repository is an evolving learning space for C++. It brings together everyday programming exercises, problem-solving practice, and Design and Analysis of Algorithms implementations in one place.
 
-From input/output, arrays, and problem-solving basics to recursion, divide and conquer, and complexity analysis, every program is designed to keep the logic visible and approachable.
+The collection will grow over time, with each program adding another building block: a language feature, a programming pattern, a data structure, an algorithm, or a new way to reason about efficiency.
 
-## What is inside?
+## What to expect
 
-### Core C++ Programs
+- Fundamental C++ syntax and programming concepts
+- Input and output, conditions, loops, functions, and arrays
+- Recursion, data structures, and problem-solving techniques
+- Algorithm design and complexity analysis
+- Clear implementations that keep the underlying logic visible
+- Small programs that are easy to compile, run, test, and improve
 
-Small, focused programs for strengthening programming fundamentals, including:
+## Learning by building
 
-- Input and output
-- Variables, conditions, and loops
-- Arrays and functions
-- Recursion and problem-solving practice
+Each addition is an opportunity to turn theory into working code. Experiment with different inputs, test edge cases, compare approaches, and make improvements as your understanding grows.
 
-### DAA Programs
-
-Algorithm implementations that make performance and strategy easier to study:
-
-| Program | Core idea | Average time | Extra space |
-| --- | --- | ---: | ---: |
-| `merge sort.cpp` | Divide the array, sort each half, then merge the results | `O(n log n)` | `O(n)` |
-| `quick sort.cpp` | Choose a pivot, partition the array, then sort both sides | `O(n log n)` | `O(log n)` average |
-
-## Why this repository?
-
-- **Beginner-friendly:** short programs with the complete input-to-output flow.
-- **Concept-focused:** each file keeps the logic visible instead of hiding it behind libraries.
-- **Theory connected to practice:** explore how DAA ideas become working C++ programs.
-- **Easy to experiment with:** change inputs, test edge cases, and observe the results.
+The goal is not only to collect programs, but to build a strong and practical foundation in C++ and algorithmic thinking.
 
 ## Quick start
 
-Compile any `.cpp` program with a C++ compiler. For example:
+Compile any C++ source file with a compiler such as `g++`:
 
 ```bash
-g++ "merge sort.cpp" -o merge-sort
-g++ "quick sort.cpp" -o quick-sort
+g++ "program.cpp" -o program
 ```
 
-Run one of them:
+Run the compiled program:
 
 ```bash
-./merge-sort
+./program
 ```
 
 On Windows, run the generated `.exe` file instead.
 
-Example input:
+## A growing journey
 
-```text
-Enter the number of elements: 6
-Enter the elements: 42 7 19 3 19 11
-```
-
-Example output:
-
-```text
-Sorted array: 3 7 11 19 19 42
-```
-
-## Learning path
-
-1. Begin with the core C++ programs to build confidence with syntax and problem solving.
-2. Move to `quick sort.cpp` to explore pivot selection, partitioning, and swapping.
-3. Open `merge sort.cpp` to see how a problem can be divided and recombined.
-4. Test algorithms with the same inputs and compare their structure, memory use, and behavior.
-
-## Note
-
-The Merge Sort program stores temporary values in a fixed-size array of 100 elements. Keep the input size at or below 100 when using it.
+New programs will be added step by step as new concepts are explored. This repository is intended to remain a work in progress: simple enough to follow, flexible enough to expand, and practical enough to revisit.
 
 ## Built with
 
-**C++** | **Problem solving** | **Recursion** | **Arrays** | **DAA** | **Divide and conquer**
+**C++** | **Problem solving** | **Data structures** | **Algorithms** | **DAA**
